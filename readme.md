@@ -24,8 +24,7 @@ The project has the following structure:
 
 ```
 video-game-sales-prediction/
-├── data/
-│   └── vgsales.csv
+├── vgsales.csv
 ├── Dockerfile
 ├── Makefile
 ├── main.py
@@ -34,7 +33,6 @@ video-game-sales-prediction/
 └── requirements.txt
 ```
 
-- `data/`: Directory to store the dataset.
 - `Dockerfile`: Docker configuration file to build the application container.
 - `Makefile`: Makefile with commands for installing dependencies, running the Flask app, building the Docker image, and running the container.
 - `main.py`: Python script containing the code for data preprocessing, model training, and Flask API.
